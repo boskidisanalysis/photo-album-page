@@ -1,0 +1,40 @@
+html{
+    background: linear-gradient(lightblue, pink) no-repeat center fixed;
+
+}
+
+h1,p{
+    font-family: fantasy;
+}
+h1{
+    font-size: 3em;
+    border-bottom: 2px solid pink;
+    border-right: 2px solid pink;
+    width: 10em;
+    border-radius: 1em;
+    color: navajowhite;
+}
+img{
+    height: 30em;
+    width:30em;
+    transition: all 1s;
+    border-radius: 3px;
+}
+.image{
+    transition: all 1s;
+}
+.image:hover{
+    transform: scale(1.05);
+}
+.container{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container .image{
+    padding: 5px;
+}
+.container legend{
+    font-family: fantasy;
+}
+p{text-align: center;}
